@@ -1,0 +1,406 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  header {background-color: rgb(7, 0, 70);
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: space-around;
+    padding: 34px 0;
+
+  }
+   img{ width: 30%;
+opacity: 55%;}
+
+
+.titulo-sony{ display: center;
+    margin: 85 30px;
+
+  }
+
+  .Titulo{ display: center;
+      margin: 30 30px;
+ 
+    }
+  .FORTNITE{
+      background-image: linear-gradient(rgb(7, 0, 71),rgba(0, 13, 128, 0.4));
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px 0;
+  }
+  
+  .TITULO-FORTNITE{
+      padding: 30px 0;
+      font-size: 20px;
+  }
+  
+  body{
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  .ROCKET-LEAGUE-TITULO{
+      background-image: linear-gradient(rgb(0, 13, 128, 0.4),#404fd366);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px 0;
+  }
+
+  .Rocket-titulo{
+      padding: 30px 0;
+      font-size: 20px;
+   }
+   
+   .FORTNITE-TEXTO{
+      padding: 15px 0;
+   }
+
+   
+  .DAUNTLESS{
+    background-image: linear-gradient(rgba(64, 79, 211, 0.4),rgba(134, 143, 219, 0.4));
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+  }
+  
+  .titulo-dauntless{
+    padding: 30px 0;
+    font-size: 20px;
+  }
+  .btn {
+    padding: 1rem 2rem;
+    font-weight: 700;
+    background: rgb(15, 17, 117);
+    color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    border-bottom: 2px solid rgb(43, 70, 226);
+    border-right: 2px solid rgb(13, 11, 141);
+    border-top: 2px solid rgb(13, 23, 121);
+    border-left: 2px solid rgb(5, 46, 134);
+    transition-duration: 1s;
+    transition-property: border-top, 
+       border-left, 
+       border-bottom,
+       border-right,
+       box-shadow;
+   }
+   
+   .btn:hover {
+    border-top: 2px solid rgb(28, 55, 211);
+    border-left: 2px solid rgb(43, 46, 226);
+    border-bottom: 2px solid rgb(33, 11, 231);
+    border-right: 2px solid rgb(21, 63, 141);
+    box-shadow: rgba(112, 143, 243, 0.4) 5px 5px, rgba(84, 112, 202, 0.3) 10px 10px, rgba(94, 170, 189, 0.2) 15px 15px;
+   }
+  
+  img{
+    opacity: 40%;
+  }
+
+  .LISTA-DE-ITEM1, .LISTA-DE-ITEM2, .LISTA-DE-ITEM3{
+    justify-content:flex-end;
+    align-items: end;
+    padding: 25px 0;
+  }
+.LISTA-DE-ITEM3 { 
+    justify-content:flex-end;
+  align-items: end;
+  padding: 10px 0;
+}
+  
+  .cabeçalho-Imagem{
+    width: 600px;
+  }
+
+
+
+  .myCard {
+    background-color: transparent;
+    width: 190px;
+    height: 254px;
+    perspective: 1000px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .innerCard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .myCard:hover .innerCard {
+    transform: rotateY(180deg);
+  }
+  
+  .frontSide,
+  .backSide {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    font-size: 10px;
+  }
+  
+  .frontSide,
+  .frontSide::before {
+    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(0, 22, 145) 46%, rgb(82, 63, 255) 100%);
+  }
+  
+  .backSide,
+  .backSide::before {
+    background-image: linear-gradient(160deg, #0093E9 0%, #0b776a 100%);
+  }
+  
+  .backSide {
+    transform: rotateY(180deg);
+  }
+  
+  .frontSide::before,
+  .backSide::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 1em;
+    filter: blur(20px);
+  }
+  
+
+  .myCard {
+    background-color: transparent;
+    width: 190px;
+    height: 254px;
+    perspective: 1000px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .innerCard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .myCard:hover .innerCard {
+    transform: rotateY(180deg);
+  }
+  
+  .frontSide,
+  .backSide {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+  }
+  
+  .frontSide,
+  .frontSide::before {
+    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(0, 22, 145) 46%, rgb(82, 63, 255) 100%);
+  }
+  
+  .backSide,
+  .backSide::before {
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  }
+  
+  .backSide {
+    transform: rotateY(180deg);
+  }
+  
+  .frontSide::before,
+  .backSide::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 1em;
+    filter: blur(20px);
+  }
+
+
+  .myCard {
+    background-color: transparent;
+    width: 190px;
+    height: 254px;
+    perspective: 1000px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .innerCard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .myCard:hover .innerCard {
+    transform: rotateY(180deg);
+  }
+  
+  .frontSide,
+  .backSide {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+  }
+  
+  .frontSide,
+  .frontSide::before {
+    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(0, 22, 145) 46%, rgb(82, 63, 255) 100%);
+  }
+  
+  .backSide,
+  .backSide::before {
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  }
+  
+  .backSide {
+    transform: rotateY(180deg);
+  }
+  
+  .frontSide::before,
+  .backSide::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 1em;
+    filter: blur(20px);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgb(134, 134, 134);
+  --animation-color: #1f7bc5;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
