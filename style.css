@@ -1,5 +1,6 @@
 body{
     background-color: black;
+
 }
 *{
     margin: 0%;
@@ -13,12 +14,13 @@ body{
 
   }
    img{ width: 30%;
-opacity: 55%;}
+opacity: 55%
+;}
 
 
 .titulo-sony{ display: center;
     margin: 85 30px;
-
+border-radius: 10px;
   }
 
   .Titulo{ display: center;
@@ -44,6 +46,7 @@ opacity: 55%;}
   }
   
   .ROCKET-LEAGUE-TITULO{
+
       background-image: linear-gradient(rgb(0, 13, 128, 0.4),#404fd366);
       color: white;
       display: flex;
@@ -118,6 +121,7 @@ opacity: 55%;}
   
   .cabeçalho-Imagem{
     width: 600px;
+    border-radius: 20px;
   }
 
 
@@ -251,7 +255,7 @@ opacity: 55%;}
   
   .backSide,
   .backSide::before {
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(160deg, #0f3fa8 0%, #3062ce 100%);
   }
   
   .backSide {
@@ -321,12 +325,12 @@ opacity: 55%;}
   
   .frontSide,
   .frontSide::before {
-    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(0, 22, 145) 46%, rgb(82, 63, 255) 100%);
+    background: linear-gradient(43deg, rgb(17, 42, 170) 0%, rgb(0, 22, 145) 46%, rgb(29, 20, 116) 100%);
   }
   
   .backSide,
   .backSide::before {
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(160deg, #005f96 0%, #2450af 100%);
   }
   
   .backSide {
@@ -343,8 +347,8 @@ opacity: 55%;}
     height: 110%;
     position: absolute;
     z-index: -1;
-    border-radius: 1em;
-    filter: blur(20px);
+    border-radius: 2em;
+    filter: blur(15px);
   }
   
   
@@ -374,19 +378,20 @@ opacity: 55%;}
 /* button styling */
 .button {
   --border-right: 6px;
-  --text-stroke-color: rgb(134, 134, 134);
-  --animation-color: #1f7bc5;
+  --text-stroke-color: rgb(129, 129, 129);
+  --animation-color: #0051ff;
   --fs-size: 2em;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-decoration: none;
   font-size: var(--fs-size);
   font-family: "Arial";
   position: relative;
   text-transform: uppercase;
   color: transparent;
-  -webkit-text-stroke: 1px var(--text-stroke-color);
+  -webkit-text-stroke: 0.5px var(--text-stroke-color);
+  opacity: 90%;
 }
-/* this is the text, when you hover on button */
+
 .hover-text {
   position: absolute;
   box-sizing: border-box;
@@ -396,11 +401,28 @@ opacity: 55%;}
   inset: 0;
   border-right: var(--border-right) solid var(--animation-color);
   overflow: hidden;
-  transition: 0.5s;
+  transition: 0.4s;
   -webkit-text-stroke: 1px var(--animation-color);
 }
-/* hover */
 .button:hover .hover-text {
   width: 100%;
-  filter: drop-shadow(0 0 23px var(--animation-color))
+  filter: drop-shadow(0 0 27px var(--animation-color))
 }
+
+
+
+.DAUNT-IMG{
+  border-radius: 20px;
+  padding-left: 30px;
+}
+
+.FORT-IMG{
+  border-radius: 20px;
+  padding-left: 30px;
+}
+
+.ROCKET-IMG{
+  border-radius: 20px;
+padding-left: 30px;
+}
+
